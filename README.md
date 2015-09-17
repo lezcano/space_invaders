@@ -10,6 +10,10 @@ El proyecto fue realizado en colaboración con https://github.com/damaru2/
 
 Recibió la máxima nota.
 
+## Gameplay
+En el siguiente video se puede observar un gameplay completo con las funcionalidades del juego.
+
+https://youtu.be/T3tgwPq07I0
 ## Screenshots
 ### Level 1
 ![image1](https://cloud.githubusercontent.com/assets/3291265/9936504/96d59850-5d5c-11e5-9002-39af1c72e37c.png)
@@ -24,7 +28,3 @@ Recibió la máxima nota.
 ### Game over
 ![gameover](https://cloud.githubusercontent.com/assets/3291265/9936492/91e71ddc-5d5c-11e5-8e28-55a5184aca90.png)
 
-## Gameplay
-En el siguiente video se puede observar un gameplay completo con las funcionalidades del juego.
-
-https://youtu.be/T3tgwPq07I0
