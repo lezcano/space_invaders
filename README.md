@@ -4,7 +4,7 @@ Implementación del clásico juego Space Invaders en VHDL.
 
 En los diferentes archivos pdf de la carpeta data se puede encontrar el resto de la información referente a la compilación y uso del juego.
 
-Este fue un proyecto para la asignatura Tecnología y Organización de los Computadores para el curso de tercero del doble grado en matemáticas e ingeniería informática.
+Este fue un proyecto para la asignatura Tecnología y Organización de los Computadores para el curso de tercero del doble grado en matemáticas e ingeniería informática de la Universidad Complutense de Madrid (UCM).
 
 El proyecto fue realizado en colaboración con https://github.com/damaru2/
 
