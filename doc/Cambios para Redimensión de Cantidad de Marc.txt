@@ -1,0 +1,17 @@
+Cambios Para Marcianos:
+
+En VGA:
+Zeros_For_Rand
+
+En Invader_array
+Signal distr_lvl1
+Signal distr_lvl2
+
+En Pant_inicial
+matriz_marc
+
+En Tipos:
+filas_marc
+columnas_marc
+log_columnas_marc
+log_filas_marc

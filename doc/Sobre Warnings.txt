@@ -1,0 +1,36 @@
+Sobre los warnings
+
+Xst: 753 Unconnected output port 'X' of component 'Y'.
+This message can be safely ignored if that particular output port is not intended to be used for that particular instantiation of the submodule. 
+http://www.xilinx.com/support/answers/14065.htm
+
+Xst:790 
+Index value(s) does not match array range, simulation mismatch.
+Quizá se pueda poner un vector que sirva solo para acceder a posiciones. Un vector de 4 bits para que no ocurra esto.
+Referencia: http://forums.xilinx.com/xlnx/board/crawl_message?board.id=GenDis&message.id=10875
+
+Xst:646 Signal <sig<n:m>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+These warnings are produced even though the signals are defined and used in your design:
+In this case, you can safely ignore the warning messages.
+http://www.xilinx.com/support/answers/13959.htm
+
+Xst:737 " Found n-bit latch for signal <name>." - 
+No tengo ni idea de por que sale este latch
+Referencia: http://www.xilinx.com/support/answers/13979.htm
+
+Xst:1290 - Hierarchical block <B> is unconnected in block <B'>. It will be removed from the design.
+Ni idea de por qué sale esto ni de como arreglarlo
+Referencia: http://forums.xilinx.com/t5/Synthesis/Hierarchical-block-lt-ALU-gt-is-unconnected-in-block-lt-Temp-gt/m-p/124148#M3429
+
+Xst:1710 
+Igual que el 1290
+http://www.xilinx.com/support/answers/44140.htm
+http://forums.xilinx.com/xlnx/board/crawl_message?board.id=SYNTHBD&message.id=6178
+http://www.fpgadeveloper.com/2011/06/how-to-keep-a-signal-name-after-mapping.html
+
+Xst:2677 - Node <registro_0> of sequential type is unconnected in block <teclado>.
+Registro no utilizado
+
+Xst:1895 Parecido a 1710
+Este tiene pinta de que pasa por lo opuesto a Xst:790 y hay un indice que no puede alcanzar todo el array
+http://www.xilinx.com/support/answers/31856.htm
